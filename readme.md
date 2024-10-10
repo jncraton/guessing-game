@@ -3,6 +3,14 @@ Guessing Game
 
 The project provides the basic overview for creating a number guessing game.
 
+Learning Objectives
+-------------------
+
+After completing this lab, students will be able to:
+
+1. Use loops to repeat block of code
+2. Nest conditionals within loops to alter repeated behavior
+
 Requirements
 ------------
 

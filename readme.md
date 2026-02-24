@@ -1,7 +1,7 @@
 Guessing Game
 =============
 
-The project provides the basic overview for creating a number guessing game.
+Create a number guessing game.
 
 Learning Objectives
 -------------------

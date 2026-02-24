@@ -8,8 +8,9 @@ Learning Objectives
 
 After completing this lab, students will be able to:
 
-1. Use loops to repeat block of code
-2. Nest conditionals within loops to alter repeated behavior
+1. Use functions to encapsulate and reuse blocks of code
+2. Use recursion (functions calling themselves) to repeat behaviour
+3. Nest conditionals within function calls to alter repeated behavior
 
 Requirements
 ------------
@@ -40,7 +41,7 @@ What is my number? 22
 You got it right in 5 guesses!
 ```
 
-If the user would like to have their number guessed, the program should supply a guess and ask if it is too high or too low. The user should then be prompted with  options to select if their number is correct, higher, or lower than the guess. If the guess is correct, the program should terminate with a useful message of some kind. If the guess is incorrect the, guessing process should repeat.
+If the user would like to have their number guessed, the program should supply a guess and ask if it is too high or too low. The user should then be prompted with options to select if their number is correct, higher, or lower than the guess. If the guess is correct, the program should terminate with a useful message of some kind. If the guess is incorrect the guessing process should repeat.
 
 Here's an example run showing the computer guessing the user's number. The user selected 13.
 
@@ -106,7 +107,8 @@ Helpful Python Features
 
 You will likely want to use all of the following:
 
-- Loop (`for` or `while`)
+- Functions (define and call functions to structure the program)
+- Recursion (a function that calls itself) to repeat behaviour when loops are not yet available
 - Branching (`if`, `elif`, `else`)
 - Imports and built-in functions
     - `random.randint` to get a random number
